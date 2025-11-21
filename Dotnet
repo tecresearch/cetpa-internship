@@ -1,0 +1,115 @@
+## 11/12/2024 -- 20/01/2025: Advanced C#
+- **Topics:**
+  - **Collection Framework (C# Collections & Generics):**
+    - Lists, Dictionaries, HashSets, Queues, Stacks
+    - Implementations: List<T>, LinkedList<T>, Dictionary<TKey,TValue>, HashSet<T>
+    - Iterators, Lambda Expressions, Delegates, Func & Action
+  - **ADO.NET (Equivalent to JDBC):**
+    - ADO.NET architecture and providers
+    - SQLConnection, SQLCommand, SQLDataReader, SQLDataAdapter
+    - Parameters, Stored Procedures, Transactions
+    - Executing SQL queries and updates
+  - **ASP.NET Core Basics (Equivalent to J2EE):**
+    - Overview of .NET & ASP.NET Core architecture
+    - Controllers, Routing, Middleware pipeline
+    - Razor Pages (JSP equivalent)
+    - Application configuration & hosting model
+  - **Banking Web Application:**
+    - Building a simple banking application with login, transactions, and account management
+    - Integrating backend (C#) with frontend (Razor Views)
+    - Security considerations (Authentication & Authorization)
+
+## 21/01/2025 -- 04/02/2025: Entity Framework Core (Equivalent to Hibernate)
+- **Topics:**
+  - **EF Core Configuration:**
+    - Setting up DbContext and connection strings
+    - Model classes and Fluent API configuration
+    - Data annotations and entity mapping (equivalent to hbm.xml)
+    - Understanding DbContext, DbSet, and change tracking
+  - **CRUD Operations:**
+    - Insert, Select, Update, Delete using EF Core
+    - LINQ queries (Equivalent to HQL)
+    - Query Filters, AsNoTracking, and performance optimization
+    - One-to-one, one-to-many, many-to-many relationships
+    - Using EF Core migrations to manage schema
+
+## 05/02/2025 -- 03/03/2025: ASP.NET Core MVC & .NET Framework Concepts
+- **Topics:**
+  - **IoC (Inversion of Control):**
+    - Explanation of IoC in ASP.NET Core
+    - Built-in Dependency Injection container
+    - Service lifetimes: Singleton, Scoped, Transient
+  - **DI (Dependency Injection):**
+    - Constructor Injection
+    - Injecting services into controllers
+    - Using interfaces for decoupled architecture
+    - Benefits of DI in modular design
+  - **Autowiring Equivalent:**
+    - Auto-registration patterns
+    - AddTransient, AddScoped, AddSingleton
+    - Managing multiple implementations
+  - **ADO.NET / EF (Combined):**
+    - Using EF Core with Repository Pattern
+    - Using Dapper for high-performance data access
+    - Handling exceptions, pooling, and connection lifecycle
+  - **ASP.NET Core MVC:**
+    - MVC pattern architecture
+    - Controllers, Views, and Models
+    - Routing: Attribute & Conventional Routing
+    - View engines (Razor), ViewData, ViewBag, TempData
+    - Form handling, validation, model binding
+    - Working with layout pages & partial views
+
+## 04/03/2025 -- 04/04/2025: ASP.NET Core Web API & Advanced .NET
+- **Topics:**
+  - **Program.cs & Hosting Model (Equivalent to @SpringBootApplication):**
+    - Application startup and middleware configuration
+    - Kestrel web server, dependency injection pipeline
+    - Configuration via appsettings.json
+  - **CLR (Common Language Runtime):**
+    - Understanding .NET runtime, assemblies & DLL loading
+    - Class loading, garbage collector, JIT compilation
+    - Managing dependencies via NuGet packages
+  - **DI & Autowiring (Advanced):**
+    - Typed HttpClientFactory
+    - Options pattern for configuration
+    - Logging & middleware-based dependency injection
+  - **UI Rendering Technologies (Similar to JSP/Thymeleaf):**
+    - Razor Views
+    - View Components & Tag Helpers
+    - Integrating client-side scripts and frameworks
+  - **Database (SQL Server, EF Core, Dapper):**
+    - Multiple DbContext setup
+    - Connection pools
+    - Migrations, Seeding, Relationships
+  - **EF Core (Equivalent to Hibernate in Spring Boot):**
+    - Lazy vs Eager loading
+    - Projection, grouping & joins with LINQ
+    - Stored Procedure mapping
+    - Optimistic concurrency & tracking behavior
+  - **Web API (Equivalent to Spring Boot REST):**
+    - Building RESTful endpoints
+    - Attribute routing
+    - GET, POST, PUT, DELETE operations
+    - Model validation & filters
+    - Global exception handling
+    - Swagger/OpenAPI documentation
+  - **Web Services (SOAP & REST):**
+    - Creating REST APIs using ASP.NET Core
+    - SOAP services with WCF / CoreWCF
+    - Consuming SOAP and REST APIs
+  - **Microservices:**
+    - Introduction to Microservices using .NET
+    - API Gateway using Ocelot
+    - Service Registry with Consul
+    - Resilience & retry patterns with Polly
+    - Distributed configuration using Consul/Redis
+  - **Security (Equivalent to Spring Security):**
+    - Authentication & Authorization middleware
+    - Role-based security
+    - Securing APIs using JWT
+    - OAuth2 & OpenID Connect integration
+  - **AOP (Equivalent to Spring AOP):**
+    - Action Filters & Exception Filters
+    - Custom Middleware for cross-cutting concerns
+    - Logging, caching, transactions, auditing
